@@ -1,14 +1,12 @@
 import React from "react";
-//import HomeMenu from "../components/Homemenu";
-import { Container,  Row } from "../components/Grid";
+import ContactMenu from "../Menus/ContactMenu";
+import { Container } from "../components/Grid";
 
 const Contact = () => {
   return (
-    <Container >
-
-    
-      <Row></Row>
+    <Container>
+   <ContactMenu/>
     </Container>
   );
 };
-export default Contact; 
+export default Contact;

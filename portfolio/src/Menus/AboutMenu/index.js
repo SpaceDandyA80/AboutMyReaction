@@ -1,8 +1,11 @@
 import React from "react";
+import Jumbotron from "../../components/Jumbotron"
+import resume from "../../assets/images/WebDevResume.pdf"
 
 function AboutMenu() {
   return (
-    <div>
+    <div >
+      <Jumbotron>
       {/* fix layout to be a card like original */}
       <div className="container text-center">
         <h1>About Me</h1>
@@ -60,8 +63,7 @@ function AboutMenu() {
               </div>
               <div className="modal-body">
                 <embed
-                  href="./assets/images/WebDevResume.pdf"
-                  src="./assets/images/WebDevResume.pdf"
+                  src={resume}
                   type="application/pdf"
                   width="100%"
                   height="100%"
@@ -133,6 +135,7 @@ function AboutMenu() {
           </p>
         </section>
       </footer>
+      </Jumbotron>
     </div>
   );
 }

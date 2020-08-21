@@ -1,18 +1,23 @@
 import React from "react";
+import Jumbotron from "../../components/Jumbotron";
+import street from "../../assets/images/streetlights.jpg";
+import password from "../../assets/images/passwordgen.png";
+import reminder from "../../assets/images/reminder.png";
+import weather from "../../assets/images/weatherDashboard.png";
 
+// future application switch javascript carousel to react
 function PortfolioMenu() {
   return (
-    <div>
-      <section className="jumbotron" id="container">
-        <br />
-        <section className="jumbotron text-center">
-          <div className="container">
-            <h1>All of my Projects</h1>
+    <div className="bg-secondary">
+     
+          <Jumbotron>
+          <h1>All of my Projects</h1>
             <p className="lead text-muted">
               Behold all of my biggest projects to date.
             </p>
-          </div>
-        </section>
+        
+        <hr></hr>
+     
         <main>
           <div
             id="carouselExampleIndicators"
@@ -25,26 +30,26 @@ function PortfolioMenu() {
                 data-slide-to="0"
                 className="active"
               ></li>
-              <li
+              <li className="bg-secondary"
                 data-target="#carouselExampleIndicators"
                 data-slide-to="1"
               ></li>
-              <li
+              <li className="bg-secondary"
                 data-target="#carouselExampleIndicators"
                 data-slide-to="2"
               ></li>
-              <li
+              <li className="bg-secondary"
                 data-target="#carouselExampleIndicators"
                 data-slide-to="3"
               ></li>
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <a className="nav-link" href="./jobsearch/jobcitysearch.html">
+                <a className="nav-link" href="https://spacedandya80.github.io/project1/jobcitysearch.html">
                   <img
                     border="0"
                     alt="street lights"
-                    src="./assets/images/streetlights.jpg"
+                    src={street}
                   />
                 </a>
 
@@ -64,11 +69,11 @@ function PortfolioMenu() {
                 </div>
               </div>
               <div className="carousel-item">
-                <a className="nav-link" href="./passgen/passwordcreate.html">
+                <a className="nav-link" href="https://spacedandya80.github.io/passwordgen/">
                   <img
                     border="0"
                     alt="password generator"
-                    src="./assets/images/passwordgen.png"
+                    src={password}
                   />
                 </a>
                 <div className="carousel-caption d-none d-md-block text-dark">
@@ -87,11 +92,11 @@ function PortfolioMenu() {
                 </div>
               </div>
               <div className="carousel-item">
-                <a className="nav-link" href="./weatherDash/weather.html">
+                <a className="nav-link" href="https://spacedandya80.github.io/weatherDashboard/weatherDash/weather.html">
                   <img
                     border="0"
-                    alt="password generator"
-                    src="./assets/images/weatherDashboard.png"
+                    alt="weather-dashboard"
+                    src={weather}
                   />
                 </a>
                 <div className="carousel-caption d-none d-md-block text-dark">
@@ -116,7 +121,7 @@ function PortfolioMenu() {
                   <img
                     border="0"
                     alt="bill reminder"
-                    src="./assets/images/reminder.png"
+                    src={reminder}
                   />
                 </a>
                 <div className="carousel-caption d-none d-md-block text-dark">
@@ -172,7 +177,7 @@ function PortfolioMenu() {
             </section>
           </footer>
         </main>
-      </section>
+        </Jumbotron>
     </div>
   );
 }

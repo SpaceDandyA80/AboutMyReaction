@@ -4,7 +4,7 @@ export default function Nav() {
 return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand" href="/" >
-            My Projects
+            Standardize Code
         </a>
         <div className="dropdown">
                         <button className="btn btn-secondary dropdown-toggle"
@@ -16,7 +16,7 @@ return (
                           Navigate
                         </button>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a className="dropdown-item" href="/">About</a>
+                            <a className="dropdown-item" href="/about">About</a>
                             <a className="dropdown-item" href="/portfolio">Portfolio</a>
                             <a className="dropdown-item" href="/contact">Contact</a>
                         </div>

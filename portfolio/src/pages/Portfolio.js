@@ -1,14 +1,11 @@
 import React from "react";
-import PortfolioMenu from "../components/PortofolioMenu";
+import PortfolioMenu from "../Menus/PortofolioMenu";
 import { Container } from "../components/Grid";
 
-const  Portfolio = () => {
+const Portfolio = () => {
   return (
-    <Container >
-    
-      
-    <PortfolioMenu />
-  
+    <Container>
+      <PortfolioMenu />
     </Container>
   );
 };
