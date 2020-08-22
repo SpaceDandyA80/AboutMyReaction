@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/AboutMyReaction/portfolio/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/AboutMyReaction/portfolio/static/js/main.0df994f1.chunk.js",
-    "main.js.map": "/AboutMyReaction/portfolio/static/js/main.0df994f1.chunk.js.map",
-    "runtime-main.js": "/AboutMyReaction/portfolio/static/js/runtime-main.f9b4a7d2.js",
-    "runtime-main.js.map": "/AboutMyReaction/portfolio/static/js/runtime-main.f9b4a7d2.js.map",
-    "static/js/2.5a5cc3ff.chunk.js": "/AboutMyReaction/portfolio/static/js/2.5a5cc3ff.chunk.js",
-    "static/js/2.5a5cc3ff.chunk.js.map": "/AboutMyReaction/portfolio/static/js/2.5a5cc3ff.chunk.js.map",
-    "index.html": "/AboutMyReaction/portfolio/index.html",
-    "precache-manifest.2ecdcc05b7272ba5457ee46b3b6f8a2f.js": "/AboutMyReaction/portfolio/precache-manifest.2ecdcc05b7272ba5457ee46b3b6f8a2f.js",
-    "service-worker.js": "/AboutMyReaction/portfolio/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/AboutMyReaction/portfolio/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.5a5cc3ff.chunk.js.LICENSE.txt": "/AboutMyReaction/portfolio/static/js/2.5a5cc3ff.chunk.js.LICENSE.txt",
-    "static/media/WebDevResume.pdf": "/AboutMyReaction/portfolio/static/media/WebDevResume.1741ccf1.pdf",
-    "static/media/passwordgen.png": "/AboutMyReaction/portfolio/static/media/passwordgen.b996f785.png",
-    "static/media/reminder.png": "/AboutMyReaction/portfolio/static/media/reminder.70aa97f2.png",
-    "static/media/streetlights.jpg": "/AboutMyReaction/portfolio/static/media/streetlights.d4141ac0.jpg",
-    "static/media/weatherDashboard.png": "/AboutMyReaction/portfolio/static/media/weatherDashboard.308467c8.png"
+    "main.css": "/AboutMyReaction/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/AboutMyReaction/static/js/main.1d368c2d.chunk.js",
+    "main.js.map": "/AboutMyReaction/static/js/main.1d368c2d.chunk.js.map",
+    "runtime-main.js": "/AboutMyReaction/static/js/runtime-main.6516fdd4.js",
+    "runtime-main.js.map": "/AboutMyReaction/static/js/runtime-main.6516fdd4.js.map",
+    "static/js/2.5a5cc3ff.chunk.js": "/AboutMyReaction/static/js/2.5a5cc3ff.chunk.js",
+    "static/js/2.5a5cc3ff.chunk.js.map": "/AboutMyReaction/static/js/2.5a5cc3ff.chunk.js.map",
+    "index.html": "/AboutMyReaction/index.html",
+    "precache-manifest.0b20352657c2bd169e9cd38c706c0511.js": "/AboutMyReaction/precache-manifest.0b20352657c2bd169e9cd38c706c0511.js",
+    "service-worker.js": "/AboutMyReaction/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/AboutMyReaction/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.5a5cc3ff.chunk.js.LICENSE.txt": "/AboutMyReaction/static/js/2.5a5cc3ff.chunk.js.LICENSE.txt",
+    "static/media/WebDevResume.pdf": "/AboutMyReaction/static/media/WebDevResume.1741ccf1.pdf",
+    "static/media/passwordgen.png": "/AboutMyReaction/static/media/passwordgen.b996f785.png",
+    "static/media/reminder.png": "/AboutMyReaction/static/media/reminder.70aa97f2.png",
+    "static/media/streetlights.jpg": "/AboutMyReaction/static/media/streetlights.d4141ac0.jpg",
+    "static/media/weatherDashboard.png": "/AboutMyReaction/static/media/weatherDashboard.308467c8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9b4a7d2.js",
+    "static/js/runtime-main.6516fdd4.js",
     "static/js/2.5a5cc3ff.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.0df994f1.chunk.js"
+    "static/js/main.1d368c2d.chunk.js"
   ]
 }
