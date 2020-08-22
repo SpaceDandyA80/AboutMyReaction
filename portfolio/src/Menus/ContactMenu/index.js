@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer"
 import Jumbotron from "../../components/Jumbotron";
 
 function ConactMenu() {
@@ -40,18 +41,10 @@ return (
         <button type="submit" class="btn btn-primary bg-dark">
           Submit
         </button>
-        <footer class="row footer">
-          <section class="col">
-            <p class="text-center">
-              <small
-                ><i> Reach out to me at:
-                    Rubberducky760@gmail.com
-                  </i></small  >
-            </p>
-          </section>
-        </footer>
+
       </section>
     </form>
+    <Footer />
     </Jumbotron>
 </div>
 );

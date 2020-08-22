@@ -1,5 +1,6 @@
 import React from "react";
 import Jumbotron from "../../components/Jumbotron"
+import Footer from "../../components/Footer"
 import resume from "../../assets/images/WebDevResume.pdf"
 
 function AboutMenu() {
@@ -126,15 +127,8 @@ function AboutMenu() {
           </div>
         </div>
       </div>
-      <footer className="row footer">
-        <section className="col">
-          <p className="text-center">
-            <small>
-              <i>Copyright&copy;</i>
-            </small>{" "}
-          </p>
-        </section>
-      </footer>
+
+<Footer />
       </Jumbotron>
     </div>
   );

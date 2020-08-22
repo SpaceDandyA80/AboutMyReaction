@@ -1,5 +1,6 @@
 import React from "react";
 import Jumbotron from "../../components/Jumbotron";
+import Footer from "../../components/Footer"
 import street from "../../assets/images/streetlights.jpg";
 import password from "../../assets/images/passwordgen.png";
 import reminder from "../../assets/images/reminder.png";
@@ -166,16 +167,7 @@ function PortfolioMenu() {
             </a>
           </div>
           <br />
-
-          <footer className="row footer">
-            <section className="col">
-              <p className="text-center">
-                <small>
-                  <i>Copyright&copy;</i>
-                </small>
-              </p>
-            </section>
-          </footer>
+<Footer />
         </main>
         </Jumbotron>
     </div>
