@@ -2,7 +2,7 @@ import React from "react";
 
 export function Container({ fluid, children }) {
   return <div  style={{ textAlign: "center"}}
-   className={`container${fluid ? "-fluid" : ""}`, {textAlign: "center"}} >{children}</div>;
+   className={`container${fluid ? "-fluid" : ""}`} >{children}</div>;
 }
 
 export function Card({ fluid, children}) {
