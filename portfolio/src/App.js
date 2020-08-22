@@ -11,9 +11,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <div>
+  
         <Nav />
-      </div>
+    
       <Switch>
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
