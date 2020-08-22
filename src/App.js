@@ -1,8 +1,8 @@
 import React from "react";
 import Nav from "./components/Nav";
 import About from "./pages/About";
-import Portfolio from "./pages/Portfolio"
-import Contact from "./pages/Contact"
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
  import './App.css';
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
