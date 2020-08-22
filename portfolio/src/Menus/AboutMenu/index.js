@@ -7,7 +7,7 @@ function AboutMenu() {
     <div >
       <Jumbotron>
       {/* fix layout to be a card like original */}
-      <div className="container text-center">
+      <div className=" text-center">
         <h1>About Me</h1>
         <p className="lead text-muted">
           Just a little bit about me. I have growing knowledge in the tech world
