@@ -9,15 +9,15 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
   
         <Nav />
     
       <Switch>
-        <Route exact path="/" component={About} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
+        <Route to="/" exact path="/" component={About} />
+        <Route to="/about" exact path="/about" component={About} />
+        <Route to="portfolio" exact path="/portfolio" component={Portfolio} />
+        <Route to="/contact" exact path="/contact" component={Contact} />
       </Switch>
     </BrowserRouter>
   );
